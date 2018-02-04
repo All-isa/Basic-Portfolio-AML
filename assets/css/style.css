@@ -1,0 +1,179 @@
+body {
+    background-image: url(../images/gplaypattern.png);
+}
+
+.content {
+    width:960px;
+    padding:30px 20px 70px 20px;
+    margin-bottom:50px;
+    margin:auto;
+}
+
+p {
+    padding:5px;
+    margin-left:20px;
+    padding-left:20px;
+}
+
+header  {
+    background-color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    margin:auto;
+    position:sticky;
+}
+
+h1  {
+    color:#333;
+    font-size:30px;
+    font-weight:bold;
+    padding-bottom:20px;
+    border-bottom: silver solid 1px;
+}
+
+h2 {
+    color: #333;
+    font-size:30px;
+    font-weight: bold;
+    padding-bottom:10px;
+    border-bottom: solid silver 1px;
+}
+
+.navbar {
+    margin:auto; 
+}
+
+#name {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    background: #333;
+    margin:5px;
+}
+
+input[type=text], select, textarea {
+    width:600px; 
+    padding:12px;  
+    border:2px solid #ccc; 
+    border-radius:4px;
+    box-sizing:border-box; 
+    margin-top:16px;
+    margin-bottom:16px; 
+}
+
+input[type=submit] {
+    background-color: rgb(117, 117, 117);
+    color: white;
+    padding:20px 20px;
+    border:none;
+    border-radius:4px;
+    cursor:pointer;
+}
+
+input[type=submit]:hover {
+    background-color: gray;
+}
+
+.container {
+    border-radius:5px;
+    background-color: white;
+    padding:20px;
+}
+
+section {
+    max-width:650px;
+    font-size:20px;
+    color: grey;
+    padding:10px;
+}
+
+ul {
+    list-style-type: none;
+    margin-left: 80px;
+    padding: 10px;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+}
+
+li a {
+    display: block;
+    color: whitesmoke;
+    float: right;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover {
+    background-color: silver;
+}
+
+#facepic {
+    float: left;
+    margin-right: 20px;
+    margin-bottom: 20px;
+    width:400px;
+    height:300px;
+}
+
+.column1 {
+    width:630px;
+    float:left;
+    background: white;
+    border: 2px black;
+    padding:10px;
+    text-justify:left;
+    margin-right: 20px;
+    border:1px silver solid;
+}
+
+.column2 {
+    float:left;
+    width:270px;
+    background: white;
+    border: 1px solid silver;
+    padding:5px;
+    text-align: center;
+}
+
+.connect {
+    height:60px;
+    width:60px;
+}
+
+#footer {
+    color: white;
+    bottom:0;
+    position: fixed;
+    width:100%;
+    text-align: center;
+    background-color:#333;
+    padding-top:30px;
+    padding: 10px;
+}
+
+img {
+    text-align: center;
+    padding:10px;
+    z-index: -1;
+}
+
+form {
+    padding-top:20px;
+}
+
+.container2 { 
+    position:relative;
+    float: left;
+}
+
+.projects {
+    position: absolute;
+    bottom: 50px;
+    text-align: center;
+    background: navy;
+    width: 36%;
+}
